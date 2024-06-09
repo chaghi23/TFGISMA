@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.tfgisma.controlador.LoginController">
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../icon/LogoApp.png" />
+            </ImageView>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="200.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+            <TextField fx:id="usuarioTextField" layoutX="133.0" layoutY="213.0" promptText="User" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="contrasenaPasswordField" layoutX="133.0" layoutY="250.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button fx:id="loginButton" layoutX="150.0" layoutY="332.0" mnemonicParsing="false" onAction="#ingresar" prefHeight="26.0" prefWidth="116.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE" />
+        </AnchorPane>
+    </right>
+</BorderPane>

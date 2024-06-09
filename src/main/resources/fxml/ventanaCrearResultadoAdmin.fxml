@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane layoutX="-2.0" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: #0598ff;">
+        <Text fill="#fff200" layoutX="206.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREAR RESULTADO">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Text>
+    </AnchorPane>
+    <Label layoutX="150.0" layoutY="119.0" text="Rival" />
+    <ComboBox fx:id="comboRival" layoutX="150.0" layoutY="148.0" prefWidth="200.0" />
+    <Label layoutX="150.0" layoutY="191.0" text="Resultado" />
+    <ComboBox fx:id="comboResultado" layoutX="150.0" layoutY="212.0" prefWidth="200.0" />
+    <Button layoutX="200.0" layoutY="273.0" mnemonicParsing="false" onAction="#crearResultado" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #0598FF;" text="CREAR" textFill="WHITE" />
+</AnchorPane>
